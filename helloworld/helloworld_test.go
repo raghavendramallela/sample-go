@@ -2,9 +2,9 @@ package helloworld
 
 import "testing"
 
-func TestGreetsGitHub(t *testing.T) {
-	result := Greet()
+func TestGreetingMessage(t *testing.T) {
+	result := GreetingMessage()
 	if result != "Hello World" {
-		t.Errorf("Greet() = %s; want Hello World", result)
+		t.Errorf("GreetingMessage() = %s; want Hello World", result)
 	}
 }
