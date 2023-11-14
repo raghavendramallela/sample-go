@@ -1,5 +1,5 @@
 package helloworld
 
-func Greet() string {
+func GreetingMessage() string {
 	return "Hello World"
 }
